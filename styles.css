@@ -139,3 +139,40 @@ ul{
     margin-right: 50px;
     font-size: 20px;
 }
+
+/*call-to-action*/
+
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 25px 145px;
+    color:#f9faf8;
+    border-radius: 10px;
+}
+
+.call-to-action-cover{   
+    padding: 100px 55px;
+}
+
+.call-to-action-cover .call-to-action div .d4-upper{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.call-to-action-cover .call-to-action div .d4-lower{
+    font-size: 14px;
+    font-weight: light;
+}
+
+.call-to-action-cover .call-to-action button{
+    background-color: #3882f6;
+    border:#f9faf8 solid 2px;
+    padding: 8px 30px;
+    color:#f9faf8;
+    border-radius: 5px;
+    font-weight: bold;
+}
