@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* header */
 ul{
     text-decoration: none;
     list-style-type: none;
@@ -25,6 +26,9 @@ ul{
     font-weight: bold;
 }
 
+
+/*div-one*/
+
 .div-one{
     display: flex;
     justify-content: space-between;
@@ -40,7 +44,7 @@ ul{
     align-items: center;
     width: 400px;
     height: 201px;
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(167, 167, 167);
     flex-shrink: 0;
 }
 
@@ -67,4 +71,48 @@ ul{
 
 .d1-text-side{
     width: 500px;
+}
+
+
+/*div-two*/
+
+.div-two{
+    padding: 100px 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.div-two h3{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1f2937;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.d2-box-flex{
+    display:flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+}
+
+.d2-box-flex div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d2-box-flex div div{
+    height: 100px;
+    width: 100px;
+    border:#3882f6 solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.d2-box-flex div p{
+    font-weight: 300;
+    font-size: 14px;
 }
