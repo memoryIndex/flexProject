@@ -176,3 +176,12 @@ ul{
     border-radius: 5px;
     font-weight: bold;
 }
+
+/*footer*/
+
+.footer{
+    text-align: center;
+    padding: 25px 0px;
+    background-color: #1f2937;
+    color:#f9faf8;
+}
