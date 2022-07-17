@@ -1,0 +1,9 @@
+*{
+    font-family: 'Roboto',sans-serif, arial;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
